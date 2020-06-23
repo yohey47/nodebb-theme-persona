@@ -1,7 +1,7 @@
 {
-    "id": "nodebb-theme-persona",
-    "name": "Persona",
-    "description": "The default theme for NodeBB. Uses a standard approach to forum design.",
-    "url": "https://github.com/psychobunny/nodebb-theme-persona",
+    "id": "nodebb-theme-persona-username-to-fullname",
+    "name": "PersonaUsernameToFullname",
+    "description": "Based on Persona. This theme replaces the username with the fullname.",
+    "url": "https://github.com/psychobunny/nodebb-theme-persona-username-to-fullname",
     "screenshot": "screenshot.png"
 }
