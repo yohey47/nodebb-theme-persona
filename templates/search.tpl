@@ -121,7 +121,7 @@
 													<option value="topic.viewcount">[[search:number-of-views]]</option>
 													<option value="topic.votes">[[search:topic-votes]]</option>
 													<option value="topic.timestamp">[[search:topic-start-date]]</option>
-													<option value="user.username">[[search:username]]</option>
+													<option value="user.fullname">[[search:fullname]]</option>
 													<option value="category.name">[[search:category]]</option>
 												</select>
 											</div>
