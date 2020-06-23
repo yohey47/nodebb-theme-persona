@@ -18,7 +18,7 @@
 				<a href="{config.relative_path}/user/{target.user.userslug}">{buildAvatar(target.user, "lg", false, "media-object")}</a>
 			</div>
 			<div class="media-body">
-				<h4 class="media-heading"><a href="{config.relative_path}/user/{target.user.userslug}">{target.user.username}</a></h4>
+				<h4 class="media-heading"><a href="{config.relative_path}/user/{target.user.userslug}"><!-- IF target.user.fullname -->{target.user.fullname}<!-- ELSE -->{target.user.username}<!-- ENDIF target.user.fullname --></a></h4>
 				{target.content}
 			</div>
 		</div>
@@ -109,7 +109,7 @@
 						</div>
 						<div class="media-body">
 							<h4 class="media-heading">
-								<a href="{config.relative_path}/user/{../user.userslug}">{../user.username}</a>
+								<a href="{config.relative_path}/user/{../user.userslug}"><!-- IF ../user.fullname -->{../user.fullname}<!-- ELSE -->{../user.username}<!-- ENDIF ../user.fullname --></a>
 								<small><span class="timeago" title="{../datetimeISO}"></span></small>
 							</h4>
 							{../content}
@@ -187,7 +187,7 @@
 						</div>
 						<div class="media-body">
 							<h4 class="media-heading">
-								<a href="{config.relative_path}/user/{../user.userslug}">{../user.username}</a>
+								<a href="{config.relative_path}/user/{../user.userslug}"><!-- IF ../user.fullname -->{../user.fullname}<!-- ELSE -->{../user.username}<!-- ENDIF ../user.fullname --></a>
 								<small><span class="timeago" title="{../datetimeISO}"></span></small>
 							</h4>
 							<ul>
