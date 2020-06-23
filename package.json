@@ -1,14 +1,14 @@
 {
-  "name": "nodebb-theme-persona",
-  "version": "10.1.53",
+  "name": "nodebb-theme-persona-username-to-fullname",
+  "version": "0.9.0",
   "nbbpm": {
     "compatibility": "^1.14.0"
   },
-  "description": "Persona theme for NodeBB",
+  "description": "Based on Persona. This theme replaces the username with the fullname.",
   "main": "theme.less",
   "repository": {
     "type": "git",
-    "url": "https://github.com/psychobunny/nodebb-theme-persona"
+    "url": "https://github.com/yohey47/nodebb-theme-persona-username-to-fullname"
   },
   "keywords": [
     "nodebb",
@@ -36,7 +36,7 @@
   ],
   "license": "BSD-2-Clause",
   "bugs": {
-    "url": "https://github.com/psychobunny/nodebb-theme-persona/issues"
+    "url": "https://github.com/yohey47/nodebb-theme-persona-username-to-fullname/issues"
   },
   "dependencies": {
     "pulling": "^2.0.0",
